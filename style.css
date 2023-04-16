@@ -16,9 +16,9 @@ a {
     
 /* mouse over link*/
 a:hover{
-        color:red;
-        text-decoration: underline;
-    }
+    color:red;
+    text-decoration: underline;
+}
     
 /* visited link*/
 a:visited{
@@ -29,7 +29,7 @@ a:active{
 }
     
 #contact {
-        font-size:30px;
+    font-size:30px;
 }
     
 #email {
@@ -49,5 +49,15 @@ a:active{
     background: var(--text-bg-color);
     font-size:40px;
     box-shadow: var(--box-shadow) ;
+}
+
+.list {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.foods {
+    border: 1px solid red;
+    padding: 20px;
 }
     
