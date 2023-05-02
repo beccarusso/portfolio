@@ -9,6 +9,18 @@
     max-width: 800px;
   }
   
+  #emoji-btn{
+    cursor:pointer;
+    transition: .5s;
+    font-size: 48px;
+    border:none;
+
+  }
+
+  #emoji-btn:hover {
+    transform: scale(1.23);
+  }
+
   h1,
   h2,
   h3 {
