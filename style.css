@@ -5,12 +5,20 @@
     }
     
 h1,h2 {
-        color: var(--primary-color);
+    color: var(--primary-color);
     }
 
 h1 {
-        font-size: 96px;
-      }
+    font-size: 96px;
+}
+h2 {
+    font-size: 48px;
+}
+      
+h3 {
+    font-size: 24px;
+    opacity: 0.7;
+}
     
 /* unvisited link*/
 a {
@@ -55,13 +63,3 @@ a:active{
     box-shadow: var(--box-shadow) ;
 }
 
-.list {
-    display: flex; 
-    justify-content: space-evenly;
-}
-
-.foods {
-    border: 1px solid red;
-    padding: 20px;
-}
-    
