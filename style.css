@@ -4,11 +4,11 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
   body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #2debbe);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 60px auto;
     max-width: 800px;
 }
@@ -37,19 +37,27 @@
 
   h1 {
     font-size: 96px;
+    line-height: 95%;
+    font-weight: 300;
+
   }
   
   h2 {
     font-size: 48px;
+    font-weight: 300;
+
   }
   
   h3 {
     font-size: 24px;
     opacity: 0.7;
+    font-weight: 400;
+
+
   }
   
   p {
-    background: var(--secondary-color);
+    background: var(--primary-color);
     padding: 20px;
     border-radius: 4px;
     font-size: 18px;
@@ -63,10 +71,11 @@
     justify-content: center;
     margin-top: 40px;
     justify-content: center;
-    font-weight: bold;
     
 
   }
+
+
   
   .navigation-links a {
     margin: 20px;
@@ -79,9 +88,9 @@
   }
 
  .navigation-links a:hover {
-    background: var(--primary-color);
+    background-color: var(--primary-color); 
     box-shadow: var(--box-shadow);
-    color: black;
+    color: black; opacity:0.8;
   }
   
   
