@@ -1,14 +1,18 @@
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
-  
   body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Poppins', sans-serif;
     margin: 60px auto;
     max-width: 800px;
-  }
-  
+}
+
   #emoji-btn{
     cursor:pointer;
     transition: .5s;
@@ -26,8 +30,11 @@
   h3 {
     text-align: center;
     margin: 0;
+    color:white;
+
   }
   
+
   h1 {
     font-size: 96px;
   }
@@ -56,6 +63,7 @@
     justify-content: center;
     margin-top: 40px;
     justify-content: center;
+    font-weight: bold;
     
 
   }
@@ -73,7 +81,7 @@
  .navigation-links a:hover {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
-    color: white;
+    color: black;
   }
   
   
@@ -104,3 +112,19 @@
     text-decoration: underline;
   }
   
+
+  
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
