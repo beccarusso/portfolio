@@ -58,11 +58,7 @@
     border: 1px solid var(--primary-color);
   }
 
-  .about-link:hover,
-  .work-link:hover,
-  .trip-link:hover,
-  .faq-link:hover,
-  .contact-link:hover {
+ .navigation-links a:hover {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
