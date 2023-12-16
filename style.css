@@ -1,24 +1,24 @@
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #000000;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #2debbe);
-background-size: 400% 400%;
-animation: gradient 15s ease infinite;
-height: 100vh;
-font-family: 'Roboto', sans-serif;
-margin: 60px auto;
-max-width: 800px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #2debbe);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  margin: 60px auto;
+  max-width: 800px;
 }
 
-#emoji-btn{
-cursor:pointer;
-transition: .5s;
-font-size: 48px;
-border:none;
+#emoji-btn {
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 48px;
+  border: none;
 }
 
 #emoji-btn:hover {
@@ -38,18 +38,18 @@ h1 {
   font-weight: 300;
   line-height: 95%;
 }
-  
+
 h2 {
   font-size: 48px;
   font-weight: 300;
 }
-  
+
 h3 {
   font-size: 24px;
   font-weight: 400;
   opacity: 0.7;
 }
-  
+
 p {
   background: var(--primary-color);
   padding: 20px;
@@ -58,10 +58,10 @@ p {
   text-align: center;
   line-height: 1.5;
 }
-  
+
 .navigation-links {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   margin-top: 40px;
 }
@@ -77,38 +77,37 @@ p {
 }
 
 .navigation-links a:hover {
-  background-color: var(--primary-color); 
-  box-shadow: var(--box-shadow);
-  color: black; opacity:0.9;
+  background-color: var(--primary-color);
+  color: black;
+  opacity: 0.9;
 }
 
 .homepage-link {
-    color: var(--primary-color);
-    text-align: center;
-    display: block;
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
 }
 
 .about-paragraphs {
-    display: flex;
-    margin: 30px 0;
-}
-  
-.about-paragraphs p {
-    margin: 10px;
-}
-  
-.email-link {
-    display: flex;
-    justify-content: center;
-    color: var(--primary-color);
-  font-size: 28px;
-    text-decoration: none;
-}
-  
-.email-link:hover {
-    text-decoration: underline;
+  display: flex;
+  margin: 30px 0;
 }
 
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
 
 /*
 .typewriter-header {
@@ -133,14 +132,13 @@ p {
 */
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
