@@ -109,28 +109,6 @@ p {
   text-decoration: underline;
 }
 
-/*
-.typewriter-header {
-    display:inline-flex;
-    margin-left: 160px;
-  }
-  .typewriter-text {
-    word-break: break-all;
-    height: 2em;
-    width:0%;
-    overflow: hidden;
-    animation:t 9s linear infinite alternate;
-  }
-  .typewriter-text :before {
-    content:" ";
-    display:inline-block;
-  }
-  @keyframes t{
-    90%,100% {width:100%}
-  }
-
-*/
-
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
