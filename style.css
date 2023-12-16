@@ -5,15 +5,26 @@
 }
 
 body {
-  background-image: url("https://i.postimg.cc/dvsJCg4m/Untitled-4000-x-4000-px-2.png");
+  font-family: "Roboto", sans-serif;
+  margin: 60px auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  font-family: "Roboto", sans-serif;
-  margin: 60px auto;
 }
 
+body.home {
+  background-image: url("https://i.postimg.cc/F9xCjCHw/Purple-Transparent.png");
+}
+body.about {
+  background-image: url("https://i.postimg.cc/4fxhKbPQ/Blue-Green-Yellow-shape-3.png");
+}
+body.work {
+  background-image: url("https://i.postimg.cc/9VYh12LN/Purple-pink-yellow-1.png");
+}
+body.trip {
+  background-image: url("https://i.postimg.cc/NQ5t0dWx/purple-blue-green.png");
+}
 #emoji-btn {
   cursor: pointer;
   transition: 0.5s;
@@ -89,14 +100,21 @@ p {
   display: block;
 }
 
-.about-paragraphs {
+.about-paragraphs,
+.faq {
   display: flex;
   margin: 30px 0;
+  margin-left: 10%;
+  margin-right: 10%;
   border-width: 3px;
   border-color: #383838;
 }
 
 .about-paragraphs p {
+  margin: 10px;
+}
+
+.faq p {
   margin: 10px;
 }
 
