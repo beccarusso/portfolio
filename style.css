@@ -110,6 +110,10 @@ p {
   border-color: #383838;
 }
 
+.faq {
+  margin-left: 15%;
+}
+
 .about-paragraphs p {
   margin: 10px;
 }
