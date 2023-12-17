@@ -75,6 +75,8 @@ p {
 .navigation-links {
   margin-top: 40px;
   margin-bottom: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
 }
 
 .navigation-links a {
@@ -94,12 +96,6 @@ p {
   opacity: 0.9;
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
 .about-paragraphs,
 .faq {
   display: flex;
@@ -110,14 +106,13 @@ p {
   border-color: #383838;
 }
 
-.faq {
-  margin-left: 15%;
-}
-
 .about-paragraphs p {
   margin: 10px;
 }
 
+.faq {
+  margin-left: 15%;
+}
 .faq p {
   margin: 10px;
 }
