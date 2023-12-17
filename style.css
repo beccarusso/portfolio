@@ -43,6 +43,7 @@ h2,
 h3 {
   color: var(--primary-color);
   margin: 0;
+  text-align: center;
 }
 
 h1 {
