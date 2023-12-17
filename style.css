@@ -98,7 +98,6 @@ p {
 
 .about-paragraphs,
 .faq {
-  display: flex;
   margin: 30px 0;
   margin-left: 10%;
   margin-right: 10%;
