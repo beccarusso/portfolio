@@ -132,3 +132,7 @@ p {
 .logo {
   max-width: 40px;
 }
+
+.bold-text {
+  font-weight: 600;
+}
