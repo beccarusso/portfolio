@@ -38,11 +38,14 @@ body.trip {
   cursor: default;
 }
 
+.center {
+  text-align: center;
+}
+
 h1,
 h2,
 h3 {
   color: var(--primary-color);
-  text-align: center;
   margin: 0;
 }
 
