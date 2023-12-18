@@ -14,16 +14,16 @@ body {
 }
 
 body.home {
-  background-image: url("https://i.postimg.cc/F9xCjCHw/Purple-Transparent.png");
+  background-image: url(/images/Purple-Transparent-Home-Page.png);
 }
 body.about {
-  background-image: url("https://i.postimg.cc/4fxhKbPQ/Blue-Green-Yellow-shape-3.png");
+  background-image: url(/images/Blue-Green-Yellow-shape.png);
 }
 body.work {
-  background-image: url("https://i.postimg.cc/9VYh12LN/Purple-pink-yellow-1.png");
+  background-image: url(/images/Purple-Pink-Yellow-shape.png);
 }
 body.trip {
-  background-image: url("https://i.postimg.cc/NQ5t0dWx/purple-blue-green.png");
+  background-image: url(/images/Purple-Blue-Green-shape.png);
 }
 
 #emoji-btn {
