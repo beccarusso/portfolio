@@ -155,6 +155,10 @@ p {
   font-size: 26px;
 }
 
+.react-photo {
+  border-radius: 8px;
+  border: 6px solid #ffffff;
+}
 @media (min-width: 800px) {
   .mobile-h1 {
     display: none;
@@ -180,7 +184,6 @@ p {
   }
 }
 
-/* Add specific styles for the paragraphs */
 .work-paragraphs p {
   background: #ffffff;
   border-radius: 8px;
@@ -189,7 +192,6 @@ p {
   line-height: 1.5;
 }
 
-/* Adjust padding for medium screens and above */
 @media (min-width: 768px) {
   .work-paragraphs .col-md-6 {
     padding-left: 15px;
