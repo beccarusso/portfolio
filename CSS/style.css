@@ -36,7 +36,8 @@ body.work {
 
 h1,
 h2,
-h3 {
+h3,
+h1.mobile-h1 {
   color: var(--primary-color);
   margin: 0;
   text-align: center;
@@ -133,4 +134,27 @@ p {
 .custom-btn {
   width: 280px !important;
   border-radius: 20px !important;
+}
+
+.mobile-h1 {
+  font-size: 48px;
+}
+
+.regular-h1 {
+  font-size: 96px;
+}
+
+@media (min-width: 800px) {
+  .mobile-h1 {
+    display: none;
+  }
+  .regular-h1 {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .regular-h1 {
+    display: none;
+  }
 }
