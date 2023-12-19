@@ -68,7 +68,13 @@ p {
   text-align: center;
   line-height: 1.5;
 }
-
+.profile-photo {
+  border-radius: 50%;
+  border: 10px solid #ffffff;
+  box-shadow: 0 0 0 10px #d0f0ff, 0 0 0 15px #ffffff;
+  max-width: 100%;
+  height: auto;
+}
 .navigation-links {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -144,6 +150,10 @@ p {
   font-size: 96px;
 }
 
+.home-page p {
+  font-size: 26px;
+}
+
 @media (min-width: 800px) {
   .mobile-h1 {
     display: none;
@@ -156,5 +166,15 @@ p {
 @media (max-width: 800px) {
   .regular-h1 {
     display: none;
+  }
+}
+
+.col-lg-6 {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 801px) {
+  .col-lg-6:last-child p {
+    margin-top: 50px;
   }
 }
