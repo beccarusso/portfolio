@@ -216,3 +216,7 @@ a {
 .certification {
   margin: 0 auto;
 }
+
+.about-paragraphs p {
+  font-size: 20px;
+}
