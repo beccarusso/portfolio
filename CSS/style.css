@@ -105,7 +105,8 @@ a {
 
 .about-paragraphs,
 .skills,
-.work-paragraphs {
+.work-paragraphs,
+.certification {
   margin: 30px 0;
   margin-left: 10%;
   margin-right: 10%;
@@ -122,6 +123,9 @@ a {
   line-height: 170%;
 }
 
+.certification {
+  max-width: 800px;
+}
 .email-link {
   display: flex;
   justify-content: center;
@@ -207,4 +211,8 @@ a {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+.certification {
+  margin: 0 auto;
 }
