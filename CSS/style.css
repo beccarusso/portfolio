@@ -94,7 +94,7 @@ p {
 }
 
 .about-paragraphs,
-.faq {
+.skills {
   margin: 30px 0;
   margin-left: 10%;
   margin-right: 10%;
@@ -106,10 +106,9 @@ p {
   margin: 10px;
 }
 
-.faq {
-  margin-left: 15%;
+.skills {
 }
-.faq p {
+.skills p {
   margin: 10px;
 }
 
