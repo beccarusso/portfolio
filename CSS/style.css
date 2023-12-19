@@ -68,6 +68,10 @@ p {
   text-align: center;
   line-height: 1.5;
 }
+
+a {
+  color: var(--primary-color);
+}
 .profile-photo {
   border-radius: 50%;
   border: 10px solid #ffffff;
@@ -159,6 +163,12 @@ p {
   border-radius: 8px;
   border: 6px solid #ffffff;
 }
+
+.project-header {
+  font-size: 30px !important;
+  font-weight: 600;
+}
+
 @media (min-width: 800px) {
   .mobile-h1 {
     display: none;
