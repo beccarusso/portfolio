@@ -173,6 +173,10 @@ a {
   font-weight: 600;
 }
 
+.image-description {
+  margin-top: 60px;
+}
+
 @media (min-width: 800px) {
   .mobile-h1 {
     display: none;
@@ -188,8 +192,8 @@ a {
   }
   .about-paragraphs p {
     font-size: 16px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
   }
   .home-page p {
     font-size: 20px;
