@@ -100,7 +100,8 @@ p {
 }
 
 .about-paragraphs,
-.skills {
+.skills,
+.work-paragraphs {
   margin: 30px 0;
   margin-left: 10%;
   margin-right: 10%;
@@ -176,5 +177,22 @@ p {
 @media (min-width: 801px) {
   .col-lg-6:last-child p {
     margin-top: 50px;
+  }
+}
+
+/* Add specific styles for the paragraphs */
+.work-paragraphs p {
+  background: #ffffff;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Adjust padding for medium screens and above */
+@media (min-width: 768px) {
+  .work-paragraphs .col-md-6 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
