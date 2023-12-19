@@ -172,6 +172,13 @@ a {
   font-size: 30px !important;
   font-weight: 600;
 }
+.certification {
+  margin: 0 auto;
+}
+
+.about-paragraphs p {
+  font-size: 20px;
+}
 
 @media (min-width: 800px) {
   .mobile-h1 {
@@ -213,10 +220,14 @@ a {
   }
 }
 
-.certification {
-  margin: 0 auto;
+@media (max-width: 800px) {
+  .about-paragraphs p {
+    font-size: 16px;
+  }
 }
 
-.about-paragraphs p {
-  font-size: 20px;
+@media (max-width: 800px) {
+  .home-page p {
+    font-size: 20px;
+  }
 }
