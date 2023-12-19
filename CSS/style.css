@@ -22,9 +22,6 @@ body.about {
 body.work {
   background-image: url(/images/Purple-Pink-Yellow-shape.png);
 }
-body.trip {
-  background-image: url(/images/Purple-Blue-Green-shape.png);
-}
 
 #emoji-btn {
   cursor: pointer;
