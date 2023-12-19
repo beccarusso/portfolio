@@ -116,6 +116,7 @@ a {
 
 .about-paragraphs p {
   margin: 10px;
+  font-size: 20px;
 }
 
 .skills p {
@@ -125,7 +126,9 @@ a {
 
 .certification {
   max-width: 800px;
+  margin: 0 auto;
 }
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -172,13 +175,6 @@ a {
   font-size: 30px !important;
   font-weight: 600;
 }
-.certification {
-  margin: 0 auto;
-}
-
-.about-paragraphs p {
-  font-size: 20px;
-}
 
 @media (min-width: 800px) {
   .mobile-h1 {
@@ -193,49 +189,12 @@ a {
   .regular-h1 {
     display: none;
   }
-}
-
-.col-lg-6 {
-  margin-bottom: 40px;
-}
-
-@media (min-width: 801px) {
-  .col-lg-6:last-child p {
-    margin-top: 50px;
-  }
-}
-
-.work-paragraphs p {
-  background: #ffffff;
-  border-radius: 8px;
-  font-size: 18px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-@media (min-width: 768px) {
-  .work-paragraphs .col-md-6 {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
-@media (max-width: 800px) {
-  .about-paragraphs p {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 800px) {
-  .home-page p {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 800px) {
   .about-paragraphs p {
     font-size: 16px;
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .home-page p {
+    font-size: 20px;
   }
 }
