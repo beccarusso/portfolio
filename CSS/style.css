@@ -67,11 +67,13 @@ p {
   font-size: 18px;
   text-align: center;
   line-height: 1.5;
+  margin: 10px;
 }
 
 a {
   color: var(--primary-color);
 }
+
 .profile-photo {
   border-radius: 50%;
   border: 10px solid #ffffff;
@@ -79,6 +81,7 @@ a {
   max-width: 100%;
   height: auto;
 }
+
 .navigation-links {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -114,13 +117,7 @@ a {
   border-color: #383838;
 }
 
-.about-paragraphs p {
-  margin: 10px;
-  font-size: 20px;
-}
-
 .skills p {
-  margin: 10px;
   line-height: 170%;
 }
 
@@ -196,5 +193,15 @@ a {
   }
   .home-page p {
     font-size: 20px;
+  }
+}
+
+.col-lg-6 {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 801px) {
+  .col-lg-6:first-child {
+    margin-top: 50px;
   }
 }
