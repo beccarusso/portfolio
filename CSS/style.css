@@ -106,8 +106,6 @@ p {
   margin: 10px;
 }
 
-.skills {
-}
 .skills p {
   margin: 10px;
 }
@@ -130,4 +128,9 @@ p {
 
 .bold-text {
   font-weight: 600;
+}
+
+.custom-btn {
+  width: 400px !important;
+  border-radius: 20px !important;
 }
